@@ -1,0 +1,9 @@
+def shout(text):  
+    return text.upper()  
+    
+#print(shout('Hello'))  
+    
+# Assigning function to a variable 
+yell = shout 
+    
+print(yell('Hello'))
